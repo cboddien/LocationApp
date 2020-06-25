@@ -22,7 +22,14 @@
       "**/*"
     ],
     "ios": {
+      "bundleIdentifier": "com.charlotte.locationapp",
+      "buildNumber": "1.0.0",
       "supportsTablet": true
+    },
+    "android": {
+      "package": "com.charlotte.locationapp",
+      "versionCode": 1,
+      "permissions": ["ACCESS_COARSE_LOCATION", "ACCESS_FINE_LOCATION"]
     }
   }
 }
